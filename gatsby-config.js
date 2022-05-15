@@ -14,7 +14,7 @@ module.exports = {
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       options: {
-        name: `2022`,
+        name: `Le Thu Quyen`,
         socialMedia: [{}],
         location: `Vietnam`,
       },
