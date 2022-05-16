@@ -1,5 +1,5 @@
 ---
-slug: "/get-go-cat-ba"
+slug: "/get-go-Cat-Ba"
 cover: "./20220514_112203.jpg"
 date: "2022-05-14"
 title: "Gét Gô Cát Bà"
@@ -9,4 +9,4 @@ areas:
   - Cat Ba
 ---
 
-Oneday you'll leave this world behind, so live a life you'll be remembered.
+One day you'll leave this world behind so live a life you will remember.
