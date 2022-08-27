@@ -1,12 +1,11 @@
 module.exports = {
-  pathPrefix: "/memories",
   siteMetadata: {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.js
-    siteTitle: `📷 of Le Thu Quyen`,
-    siteTitleAlt: `📷 of Le Thu Quyen`,
-    siteHeadline: `📷 of Le Thu Quyen`,
-    siteUrl: `https://quyenleethu.github.io/memories/`,
-    siteDescription: "Memories of Le Thu Quyen",
+    siteTitle: `Memories of Le Thu Quyen`,
+    siteTitleAlt: `Memories of Le Thu Quyen`,
+    siteHeadline: `Memories of Le Thu Quyen`,
+    siteUrl: `https://quyenleethu.github.io/memories`,
+    siteDescription: "Minimalistic portfolio/photography site with masonry grid, page transitions and big images",
     siteLanguage: `en`,
     author: `@quyenleethu`,
   },
@@ -15,7 +14,10 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       options: {
         name: `Le Thu Quyen`,
-        socialMedia: [{}],
+        socialMedia: [{
+          title: `Instagram`,
+          href: `https://www.instagram.com/quyquy.9x`
+        }],
         location: `Vietnam`,
       },
     },
