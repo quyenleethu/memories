@@ -11,7 +11,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-emilia": "3.0.12",
+    "@lekoarts/gatsby-theme-emilia": "3.0.13",
     "gatsby": "4.21.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
