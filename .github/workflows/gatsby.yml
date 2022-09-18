@@ -2,10 +2,7 @@ name: Build with Gatsby
 
 on:
   pull_request:
-    branches: [main]
-
-permissions:
-  contents: read
+    branches: ["main"]
 
 defaults:
   run:
@@ -32,11 +29,11 @@ jobs:
           path: |
             public
             .cache
-          key: ${{ runner.os }}-gatsby-build-${{ hashFiles('public') }}
+          key: ${{ runner.os }}-gatsby-build-${{ hashFiles('public', 'package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Build with Gatsby
         env:
           PREFIX_PATHS: "true"

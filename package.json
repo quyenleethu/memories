@@ -1,8 +1,9 @@
 {
   "private": true,
-  "name": "gatsby-starter-emilia",
-  "version": "1.0.0",
-  "author": "AREA44",
+  "name": "@retro90s/gatsby-starter-emilia",
+  "description": "Minimalistic portfolio/photography site with masonry grid, page transitions and big images",
+  "version": "2.0.0",
+  "author": "Retro90s",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -12,7 +13,9 @@
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-emilia": "3.0.13",
-    "gatsby": "4.22.0",
+    "gatsby": "4.23.0",
+    "gatsby-plugin-manifest": "4.23.0",
+    "gatsby-plugin-sitemap": "5.23.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
