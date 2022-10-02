@@ -1,1 +1,3 @@
 User-agent: *
+
+sitemap: https://quyenleethu.github.io/memories/sitemap-index.xml

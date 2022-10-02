@@ -6,8 +6,8 @@ module.exports = {
     siteHeadline: `Memories of Le Thu Quyen`,
     siteUrl: `https://quyenleethu.github.io/memories`,
     siteDescription: "Minimalistic portfolio/photography site with masonry grid, page transitions and big images",
-    siteLanguage: `en`,
-    author: `@quyenleethu`,
+    siteImage: `/banner.jpg`,
+    author: `@retro90s`,
   },
   plugins: [
     {
@@ -21,5 +21,37 @@ module.exports = {
         location: `Vietnam`,
       },
     },
-  ],
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Memories of Le Thu Quyen`,
+        short_name: `Memories of Q`,
+        description: `Memories of Le Thu Quyen`,
+        start_url: `/`,
+        background_color: `#fff`,
+        // This will impact how browsers show your PWA/website
+        // https://css-tricks.com/meta-theme-color-and-trickery/
+        // theme_color: `#3182ce`
+        display: `standalone`,
+        icons: [
+          {
+            src: `/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
+      },
+    },
+  ].filter(Boolean),
 }
