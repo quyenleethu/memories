@@ -18,6 +18,7 @@ module.exports = {
           title: `Instagram`,
           href: `https://www.instagram.com/quyquy.9x`
         }],
+        showThemeAuthor: false,
         location: `Vietnam`,
       },
     },
