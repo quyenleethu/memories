@@ -1,13 +1,15 @@
 import type { GatsbyConfig, PluginRef } from "gatsby"
 
 const config: GatsbyConfig = {
+  pathPrefix: `/memories`,
   siteMetadata: {
     siteTitle: `Memories of Le Thu Quyen`,
     siteTitleAlt: `Memories of Le Thu Quyen`,
     siteHeadline: `Memories of Le Thu Quyen`,
-    siteUrl: `https://quyenleethu.github.io/memories/`,
-    siteDescription: "Minimalistic portfolio/photography site with masonry grid, page transitions and big images",
+    siteUrl: `https://quyenleethu.github.io/memories`,
+    siteDescription: "The site saves memories of Le Thu Quyen",
     siteImage: `/og-image.jpg`,
+    siteLanguage: `en`,
   },
   trailingSlash: `never`,
   plugins: [

@@ -1,6 +1,6 @@
 import * as React from "react";
-import { HeadFC, PageProps } from "gatsby";
-import { Container } from "theme-ui";
+import { HeadFC, Link, PageProps } from "gatsby";
+import { Container, Link as TLink } from "theme-ui";
 import { Themed } from "@theme-ui/mdx";
 import Header from "@lekoarts/gatsby-theme-emilia/src/components/header";
 import Layout from "@lekoarts/gatsby-theme-emilia/src/components/layout";
@@ -14,6 +14,9 @@ const NotFound = (_props: PageProps) => (
         Oh, no!
         <br />
         You found a page that doesn't exist.{` `}
+        <TLink as={Link} to="/">
+          Do you want to visit the homepage?
+        </TLink>
       </Themed.p>
     </Container>
   </Layout>
