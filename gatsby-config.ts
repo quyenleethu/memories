@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     siteTitle: `Memories of Le Thu Quyen`,
     siteTitleAlt: `Memories of Le Thu Quyen`,
     siteHeadline: `Memories of Le Thu Quyen`,
-    siteUrl: `https://quyenleethu.github.io/memories`,
+    siteUrl: `https://quyenleethu.github.io/memories/`,
     siteDescription: "Minimalistic portfolio/photography site with masonry grid, page transitions and big images",
     siteImage: `/og-image.jpg`,
   },
